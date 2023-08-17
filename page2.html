@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose's Roses - Plants</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #3d6320;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        .brand-name {
+            font-size: 1.5rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .plant-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .plant {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .plant img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .social-link {
+            font-size: 24px;
+            color: #3d6320;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .social-link:hover {
+            color: #f5a623;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand-name">Rose's Roses</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="page1.html">Bouquets</a>
+            <a href="page2.html">Plants</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </header>
+    <div class="content">
+        <h1>Lush Plants Collection</h1>
+        <p>Explore our selection of lush plants that bring nature's tranquility into your space. Each plant is carefully chosen to enhance the ambiance and provide a touch of greenery to your surroundings.</p>
+        <div class="plant-list">
+            <div class="plant">
+                <img src="photo-1545165375-1b744b9ed444.avif" alt="Plant 1">
+                <h2>String Of Hearts</h2>
+                <p>An easy-care plant that adds elegance to any room.</p>
+            </div>
+            <div class="plant">
+                <img src="photo-1592296429945-93008c7e5a59.avif" alt="Plant 2">
+                <h2>Fiddle Leaf Fig</h2>
+                <p>A statement plant that brings a tropical feel to your home.</p>
+            </div>
+            <div class="plant">
+                <img src="photo-1545165375-1b744b9ed444.avif" alt="Plant 3">
+                <h2>Devil's Ivy</h2>
+                <p>The perfect plant for a dark room or corner, this sprawling beauty with its heart-shaped leaves is super forgiving.</p>
+            </div>
+        </div>
+    </div>
+    <div class="social-links">
+        <a class="social-link" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a class="social-link" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a class="social-link" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="social-link" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+</body>
+</html>
